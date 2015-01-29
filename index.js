@@ -1,7 +1,7 @@
 (function(){
     'use strict';
 
-    var connection = io.connect('localhost:1234');
+    var connection = io.connect('localhost:4444');
 
     connection.on( 'connect', function() {
         console.log( "Connected." );
